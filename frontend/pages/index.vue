@@ -19,6 +19,7 @@
         >
           GitHub
         </a>
+        {{ response }}
       </div>
     </div>
   </div>
@@ -31,6 +32,16 @@ import Logo from '~/components/Logo.vue'
 export default Vue.extend({
   components: {
     Logo
+  },
+  data() {
+    return {
+      response: ''
+    }
+  },
+  mounted() {
+    this.$axios.$get('/').then((data) => {
+      this.response = data
+    })
   }
 })
 </script>
