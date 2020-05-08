@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd backend; npm run start:prod",
     "postinstall": "cd frontend; npm --production=false install; npm run build; cd ../backend; npm --production=false install; npm run build"
   },
   "engines": {
