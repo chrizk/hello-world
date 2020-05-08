@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cd backend; npm run-script dist/main",
-    "postinstall": "cd frontend; yarn; npm run build; cd ../backend; yarn; npm run prestart:prod"
+    "postinstall": "npm i -g yarn; cd frontend; yarn; npm run build; cd ../backend; yarn; npm run prestart:prod"
   },
   "engines": {
     "node": "12.x"
