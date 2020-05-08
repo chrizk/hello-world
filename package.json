@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd backend; npm run-script dist/main",
-    "postinstall": "cd frontend; npm --production=false install; npm run build; cd ../backend; npm --production=false install; npm run prestart:prod"
+    "start": "cd backend; npm run start:prod",
+    "postinstall": "cd frontend; npm --production=false install; npm run build; cd ../backend; npm --production=false install; npm run build"
   },
   "engines": {
     "node": "12.x"
