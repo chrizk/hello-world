@@ -6,7 +6,7 @@
         frontend
       </h1>
       <h2 class="subtitle">
-        My bedazzling Nuxt.js project
+        My bedazzling Nuxt.js project # {{  envVar }} #
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">
@@ -35,7 +35,8 @@ export default Vue.extend({
   },
   data() {
     return {
-      response: ''
+      response: '',
+      envVar: process.env.MY_SECRET_VAR
     }
   },
   mounted() {
