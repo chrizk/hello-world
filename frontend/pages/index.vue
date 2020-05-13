@@ -6,7 +6,7 @@
         frontend
       </h1>
       <h2 class="subtitle">
-        My bedazzling Nuxt.js project # {{  envVar }} #
+        My bedazzling Nuxt.js NEW project # {{  envVar }} #
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">
