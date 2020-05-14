@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        frontend
+        nice frontend
       </h1>
       <h2 class="subtitle">
         My bedazzling Nuxt.js NEW project # {{  envVar }} #
